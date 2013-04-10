@@ -1,0 +1,24 @@
+[buildout]
+develop = .
+parts = scripts test
+versions = versions
+extends =
+    http://dist.plone.org/release/4.3/versions.cfg
+
+[versions]
+
+[scripts]
+recipe = zc.recipe.egg
+eggs =
+    ${namespace_package}.${package}
+    zest.releaser
+    ZopeSkel
+    PasteScript
+    PasteDeploy
+    Paste
+    zopeskel.diazotheme
+
+[test]
+recipe = zc.recipe.testrunner
+defaults = ['--tests-pattern', '^f?tests$', '-v']
+eggs = ${namespace_package}.${package}

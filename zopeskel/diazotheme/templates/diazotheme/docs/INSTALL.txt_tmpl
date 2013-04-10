@@ -1,0 +1,20 @@
+#set $full_package_name = "%s.%s" % ($namespace_package, $package)
+#set $header_text = "%s Installation" % $project
+#set $header_line = "-" * len($header_text)
+$header_text
+$header_line
+
+To install ${project} using zc.buildout and the plone.recipe.zope2instance
+recipe to manage your project, you can do this:
+
+* Add ``${project}`` to the list of eggs to install, e.g.:
+
+    [buildout]
+    ...
+    eggs =
+        ...
+        ${project}
+       
+* Re-run buildout, e.g. with:
+
+    $ ./bin/buildout
