@@ -65,6 +65,8 @@ A sample theme is included to use as a starting point.
 Just replace it if you don't need it.
 The sample theme's key feature is that it makes use of all of Plone's CSS and JavaScript as a starting point.
 
+NOTE: The Diazo theme will be available in Plone even if you have not installed the package.
+It will not be applied, though, until enabled in the Theme configlet of site setup.
 
 diazo_resources/static
 ----------------------
@@ -105,6 +107,11 @@ For example, if you wish to override the standard Plone footer, you would find t
 The full, dotted name for this resource is::
 
     plone.app.layout.viewlets.footer.pt
+
+Template overrides are only applied when the BrowserLayer is installed.
+So, they won't affect Plone installations where this package is not installed.
+
+A sample override for the Plone footer is included. Delete it if you don't need it.
 
 See the documentation for `z3c.jbot <https://pypi.python.org/pypi/z3c.jbot>`_.
 

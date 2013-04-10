@@ -34,6 +34,10 @@
 
         <!-- Insert your own rules here -->
 
+        <!-- This rule pulls in the whole Plone layout. You'll typically replace this
+             with rules that copy particular parts of the content into particular
+             targets in your theme.
+         -->
         <after css:theme="body p" css:content="#visual-portal-wrapper" />
 
     </rules>

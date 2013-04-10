@@ -3,6 +3,7 @@
      -->
 <object name="portal_javascripts">
 
+#if str($include_doc) == 'True'
  <!-- Javascript files that will be registered with the
       portal_javascripts tool are defined here. You can also specify values
       for existing resources if you need to modify some of their properties.
@@ -16,10 +17,12 @@
       See registerScript() arguments in ResourceRegistries/tools/JSRegistry.py
       for the latest list of all available keys and default values.
       -->
+#end if
 
+<!--
  <javascript
     id="++resource++${namespace_package}.${package}/static/main.js"
     cacheable="False" compression="safe" cookable="False"
     enabled="True" expression=""  inline="False"/>
-
+ -->
 </object>
