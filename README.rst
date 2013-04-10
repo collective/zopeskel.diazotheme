@@ -43,15 +43,16 @@ directory. Command line for creating a package named diazotheme.mytheme would be
 This will create a Python package with a directory structure like this::
 
     diazotheme.mytheme/
-    ├── diazotheme
-    │   └── mytheme
-    │       ├── diazo_resources
-    │       │   └── static
-    │       ├── locales
-    │       ├── profiles
-    │       │   └── default
-    │       └── template_overrides
-    └── docs
+    |-- diazotheme
+    |   +-- mytheme
+    |       |-- diazo_resources
+    |       |   +-- static
+    |       |-- locales
+    |       |-- profiles
+    |       |   +-- default
+    |       +-- template_overrides
+    |-- diazotheme.mytheme.egg-info
+    +-- docs
 
 The typically customized parts are in the diazotheme.mytheme/diazotheme/mytheme subdirectory.
 
@@ -91,7 +92,7 @@ This profile has a couple of important features:
 * It sets up a BrowserLayer, which insures tha template overrides and registry settings do not affect other Plone installations unless this theme is installed.
 
 * It has template registrations for CSS and JavaScript resource registries.
-These allow you to incorporate static resources which are part of the theme into the Plone resource registries for efficient merging with other CSS and JS resources.
+  These allow you to incorporate static resources which are part of the theme into the Plone resource registries for efficient merging with other CSS and JS resources.
 
 template_overrides
 ------------------
