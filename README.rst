@@ -114,5 +114,5 @@ So, they won't affect Plone installations where this package is not installed.
 
 A sample override for the Plone footer is included. Delete it if you don't need it.
 
-See the documentation for `z3c.jbot <https://pypi.python.org/pypi/z3c.jbot>`_.
+For details on template overrides, see the documentation for `z3c.jbot <https://pypi.python.org/pypi/z3c.jbot>`_.
 
