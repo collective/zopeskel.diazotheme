@@ -35,7 +35,7 @@ And run the buildout
 Usage
 ======
 
-Creating a dexterity content package, typically done in your buildout's src
+Add ons under development are typically created in your buildout's src
 directory. Command line for creating a package named diazotheme.mytheme would be::
 
   ../bin/zopeskel diazotheme diazotheme.mytheme
