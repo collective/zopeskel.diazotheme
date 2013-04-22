@@ -59,8 +59,10 @@ The typically customized parts are in the diazotheme.mytheme/diazotheme/mytheme 
 diazo_resources
 ---------------
 
-This is where you'll put your Diazo resources including a rules XML file and one or more template HTML files.
-You may wish to interactively develop these theme elements in the theming editor (for Plone 4.3+), then export the resources and add them here.
+This is where you'll put your Diazo resources including a rules XML file and
+one or more template HTML files. You may wish to interactively develop these
+theme elements in the theming editor (for Plone 4.3+), then export the
+resources and add them here.
 
 A sample theme is included to use as a starting point. Just replace it if you
 don't need it. The sample theme's key feature is that it makes use of all of
@@ -118,7 +120,8 @@ template_overrides
 
 You may use this directory to override any Plone viewlet, portlet or skin template.
 
-To override a template, copy or create a template in this directory using the full dotted name of the template you wish to override.
+To override a template, copy or create a template in this directory using the
+full dotted name of the template you wish to override.
 
 For example, if you wish to override the standard Plone footer, you would find the original at::
 
@@ -134,5 +137,5 @@ package is not installed.
 
 A sample override for the Plone footer is included. Delete it if you don't need it.
 
-For details on template overrides, see the documentation for `z3c.jbot <https://pypi.python.org/pypi/z3c.jbot>`_.
-
+For details on template overrides, see the documentation for `z3c.jbot
+<https://pypi.python.org/pypi/z3c.jbot>`_.
