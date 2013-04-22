@@ -106,7 +106,7 @@ of the theme into the Plone resource registries for efficient merging with
 other CSS and JS resources. The samples are commented out. If you remove the
 comment markers and install/reinstall the theme, the main.css and main.js
 files from your diazo_resources/static directory will be incorporated into the
-CSS and JS delivered by Plone — even if the Diazo theme is not active.
+CSS and JS delivered by Plone -- even if the Diazo theme is not active.
 
 The alternative to adding your resources to the registries is to load them
 directly in your theme's index.html. This is a better approach if you don't
