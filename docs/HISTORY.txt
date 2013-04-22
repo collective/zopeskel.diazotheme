@@ -4,7 +4,11 @@ Changelog
 1.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Added z3c.jbot to setup.py requires for created theme.
+
+- Changed ++resource++ to ++theme++ in profile/defaults.
+
+- Tuned up documentation.
 
 
 1.0 (2013-04-10)

@@ -21,8 +21,8 @@
 
 <!--
  <javascript
-    id="++resource++${namespace_package}.${package}/static/main.js"
+    id="++theme++${namespace_package}.${package}/static/main.js"
     cacheable="False" compression="safe" cookable="False"
-    enabled="True" expression=""  inline="False"/>
+    enabled="True" expression=""  inline="False" />
  -->
 </object>

@@ -1,2 +1,5 @@
 /* Stylesheet for the 'ICustomTheme' Plone browser layer */
 
+body {
+    background-color: pink;
+}

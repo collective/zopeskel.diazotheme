@@ -30,9 +30,9 @@
 
 <!--
  <stylesheet title=""
-    id="++resource++${namespace_package}.${package}/static/main.css"
+    id="++theme++${namespace_package}.${package}/static/main.css"
     media="screen" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
-    enabled="1" expression=""/>
+    enabled="1" expression="" />
  -->
 </object>
