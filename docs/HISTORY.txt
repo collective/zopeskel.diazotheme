@@ -4,7 +4,7 @@ Changelog
 1.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Enable theme on install.
 
 
 1.1 (2013-04-21)

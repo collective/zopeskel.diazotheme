@@ -1,0 +1,4 @@
+<theme>
+    <name>${namespace_package}.${package}</name>
+    <enabled>true</enabled>
+</theme>
