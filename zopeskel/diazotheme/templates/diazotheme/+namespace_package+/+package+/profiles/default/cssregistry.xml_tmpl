@@ -25,14 +25,30 @@
       See registerStylesheet() arguments in
       ResourceRegistries/tools/CSSRegistry.py for the latest list of all
       available keys and default values.
+      
+      The expression 'request/HTTP_X_THEME_ENABLED' can be used to apply a 
+      CSS file only in the Diazo themed site. Add 'not:' to the
+      beginning of the expression to apply it only to the unthemed
+      site (can good for Plone's public.css, portlet.css, columns.css
+      so as not to conflict with your Diazo theme).
+      
       -->
 #end if
 
 <!--
+
+ <stylesheet id="public.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"/>
+ <stylesheet id="columns.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"/>
+ <stylesheet id="portlets.css"
+    expression="not: request/HTTP_X_THEME_ENABLED | nothing"/>
+  
  <stylesheet title=""
     id="++theme++${namespace_package}.${package}/static/main.css"
-    media="screen" rel="stylesheet" rendering="import"
+    media="screen" rel="stylesheet" rendering="link"
     cacheable="True" compression="safe" cookable="True"
-    enabled="1" expression="" />
+    enabled="1" expression="request/HTTP_X_THEME_ENABLED"
+    applyPrefix="True"/>
  -->
 </object>
