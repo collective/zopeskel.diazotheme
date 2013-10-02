@@ -6,7 +6,8 @@
 
     <!-- Apply the following rules to standard Plone pages -->
     <rules css:if-content="#visual-portal-wrapper">
-
+        
+        <notheme if="$ajax_load" />
         <theme href="index.html" />
 
         <!-- Replace title with Plone's page title  -->
