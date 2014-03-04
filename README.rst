@@ -12,7 +12,7 @@ particularly if you need to override viewlet or skin templates in the process.
 This is a development tool. You should be familiar with Plone and buildout to
 use it.
 
-.. ATTENTION:
+.. ATTENTION::
    This package is compatible with ZopeSkel<3.0 only.
    
 Installation
