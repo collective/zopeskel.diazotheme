@@ -4,6 +4,10 @@ Changelog
 1.2 (unreleased)
 ----------------
 
+- Fixed #7 IOError: [Errno 2] No such file or directory: 'docs/HISTORY.txt'
+
+- Fixed #6 IOError: No egg-info directory found
+
 - Enable theme on install.
 
 
