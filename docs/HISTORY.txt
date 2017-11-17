@@ -4,6 +4,8 @@ Changelog
 1.2 (unreleased)
 ----------------
 
+- Fixed #8 ValidationException: Not a valid value: gpl version 2
+
 - Fixed #7 IOError: [Errno 2] No such file or directory: 'docs/HISTORY.txt'
 
 - Fixed #6 IOError: No egg-info directory found

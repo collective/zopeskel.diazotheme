@@ -18,7 +18,7 @@ class DiazoTheme(BasicZope):
     get_var(vars, 'namespace_package').default = 'diazotheme'
     get_var(vars, 'package').default = 'example'
     get_var(vars, 'description').default = 'Example Diazo Theme Package'
-    get_var(vars, 'license_name').default = 'GPL version 2'
+    get_var(vars, 'license_name').default = 'GPL'
 
     def pre(self, command, output_dir, vars):
         vars['include_doc'] = True
